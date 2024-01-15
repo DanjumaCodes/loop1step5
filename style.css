@@ -1,0 +1,124 @@
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --blue:rgb(0, 170, 255);
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 17rem;
+    height: 17rem;
+    background-color: white;
+    padding: 1rem;
+  }
+  .ticket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+.country-acess {
+  color:  rgba(0, 0, 255, 0.823);
+  font-size: 9%r;
+}
+.country-name {
+  color: rgba(0, 0, 0, 0.371);
+  font-size: x-small;
+}
+.gap {
+  width: 30%; 
+  height: 3px;
+  background-color: rgba(0, 115, 255, 0.214); 
+}
+.destination-acess {
+  color: rgba(0, 0, 255, 0.823);
+  font-size: 9%r;
+}
+.destination-name {
+  color: rgba(0, 0, 0, 0.371);
+  font-size: x-small;
+}
+.flight-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 100px;
+  margin-top: -10px;
+  padding-right: 4rem;
+  padding-top: 1.5rem;
+}
+.flight  {
+  color: rgba(0, 0, 0, 0.371);
+  font-size: 3%;
+}
+.gate  {
+  color: rgba(0, 0, 0, 0.371);
+  font-size: 3%;
+}
+.sit  {
+  color: rgba(0, 0, 0, 0.371);
+  font-size: 3%;
+}
+.passenger-details {
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+  flex-direction: column;
+  font-size: xx-small;
+  gap: 1rem;
+  margin-right: 9rem;
+  margin-bottom: 60rem;
+}
+.passenger {
+  color:rgba(0, 0, 0, 0.371); 
+  font-size: 3%;
+}
+
+.passenger-name {
+  font-size: larger;
+  font-weight: bold;
+}
+.passenger-details2 {
+  padding-right: 3rem;
+}
+.class {
+  color:rgba(0, 0, 0, 0.371); 
+  font-size: 3%;
+}
+.class-details {
+  font-size: larger;
+  font-weight: bold;
+}
+.departure {
+  color:rgba(0, 0, 0, 0.371); 
+  font-size: 3%;
+}
+.departure-time {
+  font-size: larger; 
+  font-weight: bold;
+}
+img {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  width: 100px;
+  height:auto;
+  margin-bottom: 7rem;
+  margin-right: 28rem;
+}
